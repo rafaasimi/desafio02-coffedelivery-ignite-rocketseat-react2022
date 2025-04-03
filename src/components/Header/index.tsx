@@ -1,23 +1,24 @@
 import { MapPin, ShoppingCart } from "phosphor-react";
 import logoCoffeDelivery from "../../assets/logo-coffe-delivery.svg";
 import { HeaderContainer, IconsContainer } from "./styles";
+import { Link } from "react-router";
 
 export function Header() {
   return (
     <HeaderContainer>
-      <a href="/">
+      <Link to="/">
         <img src={logoCoffeDelivery} alt="" />
-      </a>
+      </Link>
 
       <IconsContainer>
         <span>
           <MapPin size={22} weight="fill" /> Araras, SP
         </span>
 
-        <a href="/">
+        <Link to="/cart">
           <ShoppingCart size={22} weight="fill" />
           <span>3</span>
-        </a>
+        </Link>
       </IconsContainer>
     </HeaderContainer>
   );
