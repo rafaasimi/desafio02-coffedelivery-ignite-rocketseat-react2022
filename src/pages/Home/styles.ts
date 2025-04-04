@@ -7,7 +7,7 @@ export const MainWrapper = styled.main`
   background-size: cover;
 `;
 
-export const MainContainer = styled.main`
+export const MainContainer = styled.div`
   max-width: calc(1120px + 2rem);
   padding: 5.75rem 2rem;
   margin: 0 auto;
@@ -18,6 +18,7 @@ export const MainContainer = styled.main`
   gap: 56px;
 
   h1 {
+    font-family: "Baloo 2", sans-serif;
     font-weight: 900;
     font-size: 3rem;
     color: ${(props) => props.theme["base-title"]};
