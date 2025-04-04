@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ProductItemContainer = styled.div`
-  flex: 1 1 calc(25% - 2rem);
+  flex: 0 1 calc(25% - 2rem);
 
   display: flex;
   flex-direction: column;
@@ -40,6 +40,10 @@ export const ProductItemContainer = styled.div`
     line-height: 1.3;
 
     color: ${(props) => props.theme["base-label"]};
+  }
+
+  @media (max-width: 768px) {
+    flex-grow: 1;
   }
 `;
 
