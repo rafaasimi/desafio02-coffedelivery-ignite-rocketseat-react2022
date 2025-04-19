@@ -2,6 +2,8 @@ import { Coffee, Package, ShoppingCart, Timer } from "phosphor-react";
 import { FeatureList, MainContainer, MainWrapper } from "./styles";
 import { ProductList } from "./components/ProductList";
 
+import coffeeHero from '../../assets/hero-coffee.png'
+
 export function Home() {
   return (
     <>
@@ -44,7 +46,7 @@ export function Home() {
           </div>
 
           <div>
-            <img src="./src/assets/hero-coffee.png" alt="" />
+            <img src={coffeeHero} alt="" />
           </div>
         </MainContainer>
       </MainWrapper>
