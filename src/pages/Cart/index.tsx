@@ -9,11 +9,11 @@ import {
   AddressForm,
   CartContainer,
   CartForm,
-  CartItems,
   PaymentForm,
   PaymentMethodItem,
   PaymentMethods,
 } from "./styles";
+import { CartList } from "../../components/CartList";
 
 export function Cart() {
   return (
@@ -95,9 +95,9 @@ export function Cart() {
         </PaymentForm>
       </CartForm>
 
-      <CartItems>
-        <h2>Cafés selecionados</h2>
-      </CartItems>
+      <CartList />
+      
+
     </CartContainer>
   );
 }

@@ -8,21 +8,13 @@ export const CartContainer = styled.div`
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   gap: 32px;
-`;
 
-export const CartForm = styled.form`
-  > h2 {
-    margin-bottom: 16px;
-
-    font-family: "Baloo 2", sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 1.3;
-    color: ${(props) => props.theme["base-subtitle"]};
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
   }
 `;
 
-export const CartItems = styled.div`
+export const CartForm = styled.form`
   > h2 {
     margin-bottom: 16px;
 
@@ -116,6 +108,19 @@ export const AddressForm = styled.div`
     input#state {
       grid-area: state;
     }
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+
+      grid-template-areas:
+        "cep"
+        "street"
+        "number"
+        "complement"
+        "neighborhood"
+        "city"
+        "state";
+    }
   }
 `;
 
@@ -156,6 +161,10 @@ export const PaymentMethods = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 0.75rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const PaymentMethodItem = styled.div`
