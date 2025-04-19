@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const MainWrapper = styled.main`
-  background-image: url("src/assets/bg-blur.svg");
+  background-image: url("/bg-blur.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

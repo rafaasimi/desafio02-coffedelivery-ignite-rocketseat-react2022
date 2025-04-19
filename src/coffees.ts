@@ -22,7 +22,7 @@ export function getCoffees(): Coffe[] {
       description: "O tradicional café feito com água quente e grãos moídos",
       categories: ["tradicional"],
       price: 9.9,
-      image: "src/assets/coffees/expresso-tradicional.png",
+      image: "/coffees/expresso-tradicional.png",
     },
     {
       id: "expresso-americano",
@@ -30,7 +30,7 @@ export function getCoffees(): Coffe[] {
       description: "Expresso diluído, menos intenso que o tradicional",
       categories: ["tradicional"],
       price: 9.9,
-      image: "src/assets/coffees/expresso-americano.png",
+      image: "/coffees/expresso-americano.png",
     },
     {
       id: "expresso-cremoso",
@@ -38,7 +38,7 @@ export function getCoffees(): Coffe[] {
       description: "Café expresso tradicional com espuma cremosa",
       categories: ["tradicional"],
       price: 9.9,
-      image: "src/assets/coffees/expresso-cremoso.png",
+      image: "/coffees/expresso-cremoso.png",
     },
     {
       id: "expresso-gelado",
@@ -46,7 +46,7 @@ export function getCoffees(): Coffe[] {
       description: "Bebida preparada com café expresso e cubos de gelo",
       categories: ["tradicional", "gelado"],
       price: 9.9,
-      image: "src/assets/coffees/expresso-gelado.png",
+      image: "/coffees/expresso-gelado.png",
     },
     {
       id: "cafe-com-leite",
@@ -54,7 +54,7 @@ export function getCoffees(): Coffe[] {
       description: "Meio a meio de expresso tradicional com leite vaporizado",
       categories: ["tradicional", "com leite"],
       price: 7.8,
-      image: "src/assets/coffees/cafe-com-leite.png",
+      image: "/coffees/cafe-com-leite.png",
     },
     {
       id: "latte",
@@ -63,7 +63,7 @@ export function getCoffees(): Coffe[] {
         "Uma dose de café expresso com o dobro de leite e espuma cremosa",
       categories: ["tradicional", "com leite"],
       price: 8.8,
-      image: "src/assets/coffees/latte.png",
+      image: "/coffees/latte.png",
     },
     {
       id: "capuccino",
@@ -72,7 +72,7 @@ export function getCoffees(): Coffe[] {
         "Bebida com canela feita de doses iguais de café, leite e espuma",
       categories: ["tradicional", "com leite"],
       price: 10.5,
-      image: "src/assets/coffees/capuccino.png",
+      image: "/coffees/capuccino.png",
     },
     {
       id: "macchiato",
@@ -81,7 +81,7 @@ export function getCoffees(): Coffe[] {
         "Café expresso misturado com um pouco de leite quente e espuma",
       categories: ["tradicional", "com leite"],
       price: 10.5,
-      image: "src/assets/coffees/macchiato.png",
+      image: "/coffees/macchiato.png",
     },
     {
       id: "mocaccino",
@@ -89,7 +89,7 @@ export function getCoffees(): Coffe[] {
       description: "Café expresso com calda de chocolate, pouco leite e espuma",
       categories: ["tradicional", "com leite"],
       price: 10.8,
-      image: "src/assets/coffees/mocaccino.png",
+      image: "/coffees/mocaccino.png",
     },
     {
       id: "chocolate-quente",
@@ -98,7 +98,7 @@ export function getCoffees(): Coffe[] {
         "Bebida feita com chocolate dissolvido no leite quente e café",
       categories: ["especial", "com leite"],
       price: 12.2,
-      image: "src/assets/coffees/chocolate-quente.png",
+      image: "/coffees/chocolate-quente.png",
     },
     {
       id: "cubano",
@@ -107,7 +107,7 @@ export function getCoffees(): Coffe[] {
         "Drink gelado de café expresso com rum, creme de leite e hortelã",
       categories: ["especial", "alcoólico", "gelado"],
       price: 15,
-      image: "src/assets/coffees/cubano.png",
+      image: "/coffees/cubano.png",
     },
     {
       id: "havaiano",
@@ -115,7 +115,7 @@ export function getCoffees(): Coffe[] {
       description: "Bebida adocicada preparada com café e leite de coco",
       categories: ["especial"],
       price: 14.2,
-      image: "src/assets/coffees/havaiano.png",
+      image: "/coffees/havaiano.png",
     },
     {
       id: "arabe",
@@ -123,7 +123,7 @@ export function getCoffees(): Coffe[] {
       description: "Bebida preparada com grãos de café árabe e especiarias",
       categories: ["especial"],
       price: 18.0,
-      image: "src/assets/coffees/arabe.png",
+      image: "/coffees/arabe.png",
     },
     {
       id: "irlandes",
@@ -131,7 +131,7 @@ export function getCoffees(): Coffe[] {
       description: "Bebida a base de café, uísque irlandês, açúcar e chantilly",
       categories: ["especial", "alcoólico"],
       price: 23.5,
-      image: "src/assets/coffees/irlandes.png",
+      image: "/coffees/irlandes.png",
     },
   ];
 }

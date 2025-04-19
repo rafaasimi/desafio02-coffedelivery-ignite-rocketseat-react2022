@@ -1,5 +1,5 @@
 import { Minus, Plus, ShoppingCart } from "phosphor-react";
-import { Coffe } from "../../../../assets/coffees";
+import { Coffe } from "../../../../coffees";
 import {
   ProductItemCategories,
   ProductItemContainer,

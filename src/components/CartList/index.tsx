@@ -16,7 +16,7 @@ export function CartList() {
       <CartListWrapper>
         <CartItem>
           <div className="product-image">
-            <img src="src/assets/coffees/expresso-tradicional.png" alt="" />
+            <img src="/coffees/expresso-tradicional.png" alt="" />
           </div>
 
           <div className="product-info">
@@ -47,7 +47,7 @@ export function CartList() {
 
         <CartItem>
           <div className="product-image">
-            <img src="src/assets/coffees/arabe.png" alt="" />
+            <img src="/coffees/arabe.png" alt="" />
           </div>
 
           <div className="product-info">

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Coffe, getCoffees } from "../../../../assets/coffees";
+import { Coffe, getCoffees } from "../../../../coffees";
 import { ProductListContainer, ProductListItems } from "./styles";
 import { ProductItem } from "../ProductItem";
 
